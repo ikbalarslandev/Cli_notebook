@@ -2,6 +2,7 @@
   "name": "cli_notebook",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "bin": {
     "cli_notebook": "./index.js"
   },
@@ -11,5 +12,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  }
 }
